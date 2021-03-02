@@ -47,7 +47,7 @@ table {
 	border-spacing: 0;
 }
 
-/* -----------------Style------------- */
+/* --------------------------------Style-------------------------- */
 
 body {
     background-color:#aad4cf;
@@ -55,14 +55,9 @@ body {
     font-size: 16px;
 }
 
-h1 {
-    font-size: 64px;
-    color: white;
-    padding-left: 331px;
-}
-
 h2 {
     font-size: 36px;
+    height: 50px;
 }
 
 h3 {
@@ -86,13 +81,72 @@ main {
 }
 
 header {
-    background-image: url("lone-starfish-wide.jpg");
+    height: 381px;
+    position: relative;
 }
 
-.img1{
-    padding-top: 10px;
-    padding-right: 10px;
+header img {
+    position: absolute;
+    top: 0; left: 0;
 }
+
+header h1{
+    position: absolute;
+    text-align: center;
+    width: 1024px;
+    top: 200px;
+    font-size: 64px;
+    color: white;
+}
+
+header nav {
+    position: absolute;
+    bottom: 15px;
+}
+nav {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0; padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0; padding: 0;
+}
+
+nav ul li a {
+    display: inline-block;
+    float: left;
+    margin: 0; padding: 0;
+    width: 340px;
+    border-right: 1px solid black;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+footer {
+    width: 1024px;
+    text-align: right;
+    margin: 0 auto;
+    
+}
+.container2{
+    width: 1005px;
+    height: 400px;
+
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
 
 .section1 {
     line-height: 24px;
