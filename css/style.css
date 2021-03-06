@@ -32,7 +32,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	
 }
 blockquote, q {
 	quotes: none;
@@ -52,16 +52,26 @@ table {
 body {
     background-color:#aad4cf;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 h2 {
     font-size: 36px;
-    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 h3 {
     font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 p {
@@ -81,7 +91,7 @@ main {
 }
 
 header {
-    height: 381px;
+    height: 389px;
     position: relative;
 }
 
@@ -97,15 +107,19 @@ header h1{
     top: 200px;
     font-size: 64px;
     color: white;
+    font-weight: normal;
 }
 
 header nav {
     position: absolute;
     bottom: 15px;
+    font-size: 25px;
+    color: solid black;
 }
 nav {
     width: 1024px;
     margin: 0 auto;
+    list-style: none;
 }
 
 nav ul {
@@ -116,40 +130,84 @@ nav ul {
 nav ul li {
     display: inline;
     margin: 0; padding: 0;
-}
+    }
 
 nav ul li a {
     display: inline-block;
     float: left;
     margin: 0; padding: 0;
     width: 340px;
-    border-right: 1px solid black;
     text-align: center;
     line-height: 20px;
     text-decoration: none;
+    border-right: 1px solid black;
+}
+
+nav ul li:last-child {
+    background-color: blueviolet;
+    border-right: none;
+    
+  }
+
+article img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
 }
 
 footer {
-    width: 1024px;
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+
+footer p {
     text-align: right;
-    margin: 0 auto;
+    margin-right: 30px;
+}
+
+article ul{
+    line-height: 16px;
+    padding: 10px; 
+}
+
+.containerform {
+    border: 1px solid black;
+    padding: 10px; 
+    line-height: 24px;
     
 }
-.container2{
-    width: 1005px;
-    height: 400px;
-
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
 }
 
-img {
-    float: left;
-    margin-right: 20px;
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    
+}
+.form2 {
     margin-bottom: 20px;
 }
 
-
-.section1 {
-    line-height: 24px;
-    list-style-type: circle;
-    padding: 10px;
+.sendbutton {
+    background-color:pink;
+    height: 35px;
+    width: 55px;
+}
+.sendbutton2 {
+    background-color:transparent;
+    height: 35px;
+    width: 55px;
 }

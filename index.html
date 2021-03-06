@@ -14,9 +14,11 @@
            <h1>Lone Starfish</h1>
            <nav>
                <ul>
-                   <li><a href="#">HOME</a></li>
-                   <li><a href="#">STORY</a></li>
-                   <li><a href="#">CONTACT</a></li>
+                   <li><a href="##">HOME</a></li>
+                   <li><a href="##">STORY</a></li>
+                  <div id=“section1”>  <!-- I going to use this? -->
+                   <li><a href="##">CONTACT</a></li>
+                  </div>
                </ul>
            </nav>
        </header>
@@ -24,23 +26,52 @@
        <main>
            <article>
                <h2>Life of a Starfish</h2>
-               <div class="container2">
                <img src="img/lone-starfish.jpg" alt="Photo of Starfish in the water" width="250">
                <p>Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper catalufa silver driftfish, kaluga lungfish boga greeneye, "french angelfish peamouth halfbeak batfish Australian prowfish mouthbrooder." Gibberfish tui chub mooneye smoothtongue; amur pike barbeled houndshark dwarf loach beachsalmon archerfish longfin fingerfish, thornfish: plownose chimaera gurnard. Dragon goby long-finned char bluntnose knifefish aruana eelpout elasmobranch snipefish; rock bass sea devil trunkfish. Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra. Modoc sucker northern clingfish mudsucker x-ray tetra squaretail jackfish. Paradise fish cuchia Redhorse sucker ayu Ganges shark rockling flyingfish pearleye mahi-mahi yellow weaver: ghost pipefish ide armoured catfish halibut. Torpedo; leopard danio minnow leatherjacket hardhead catfish wobbegong trench squeaker crestfish, halibut glowlight danio sailback scorpionfish unicorn fish. Tadpole cod ricefish Shingle Fish emperor drum yellow-edged moray velvet catfish flabby whalefish. Featherfin knifefish plaice pike eel tarwhine Black triggerfish pearl danio cownose ray. Merluccid hake, platy peamouth humuhumunukunukuapua'a barred danio. Black dragonfish, stingray lightfish Australian lungfish searobin false trevally, dottyback.</p>
-              </div>
+
                <h3>Facts About Starfish</h3>
                 
-                 <ul class="section1">
+                 <ul>
                     <li>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. </li>
                     <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
                     <li>Herring barbel Mexican golden trout, killifish bonito; northern anchovy. </li>
                     <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
                  </ul>  
-                
+               <h3>Contact to learn more</h3>  
+                <div class="containerform">
+                  <form>
+                    <label for="yname">Your name:</label><br>
+                    <input type="text" id="yname" name="yname"><br>
+                    <label for="yemail">Your Email:</label><br>
+                    <input type="email" id="yemail" name="yemail" ><br>
+                    <label for="ymessage">Your Message:</label><br>
+                    
+                    <textarea name="ymessage" id="ymessage" rows="5" cols="136"></textarea>
+                  </form>
+                 <h4>Would you like to visit the starfish?</h4>
+                  <div class="form2">    
+                    <form> 
+                      <input id='yes' type="radio" name='yes'/>
+                      <label for="yes">Yes</label>
+                      <input id='no' type="radio" name='no' />
+                      <label for="no">No</label>
+                      <input id='maybe' type="radio" name='maybe' />
+                      <label for="maybe">Maybe</label>
+                    </form>
+                  </div>
+                  
+                  
+                    <form action="/action_page.php">
+                     <input type="submit" value="SEND">
+                    </form>
+                    <button class="sendbutton2" action="/action_page.php">SEND</botton>
+                    
+                </div>
+
             </article>
        </main>
        <footer>
-           &copy; Lone Starfish.
+        <p> &copy; Lone Starfish.
        </footer>
     
   </body>
