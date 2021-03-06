@@ -32,7 +32,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	
+	list-style: none;
 }
 blockquote, q {
 	quotes: none;
@@ -69,9 +69,9 @@ h3 {
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 p {
@@ -91,8 +91,9 @@ main {
 }
 
 header {
-    height: 389px;
+    height: 400px;
     position: relative;
+    margin: 0 auto;
 }
 
 header img {
@@ -112,41 +113,37 @@ header h1{
 
 header nav {
     position: absolute;
-    bottom: 15px;
+    bottom: 2px;
     font-size: 25px;
+    line-height: 60px;
+    text-align: center;
     color: solid black;
-}
-nav {
     width: 1024px;
-    margin: 0 auto;
-    list-style: none;
-}
-
-nav ul {
-    list-style: none;
-    margin: 0; padding: 0;
+    margin: 0 auto; padding: 0;
+    background-color:;
 }
 
 nav ul li {
     display: inline;
     margin: 0; padding: 0;
+   
     }
 
 nav ul li a {
     display: inline-block;
-    float: left;
     margin: 0; padding: 0;
-    width: 340px;
-    text-align: center;
-    line-height: 20px;
+    width: 320px;
+    
     text-decoration: none;
+    color: black;
+    }
+
+nav ul li:first-child {
     border-right: 1px solid black;
-}
+  }
 
 nav ul li:last-child {
-    background-color: blueviolet;
-    border-right: none;
-    
+  border-left: 1px solid black;
   }
 
 article img {
@@ -155,6 +152,15 @@ article img {
     margin-bottom: 10px;
 }
 
+article p {
+    line-height: 22px;
+}
+
+article ul{
+    line-height: 16px;
+    padding: 5px 10px 10px 20px; 
+    list-style: disc;
+}
 footer {
     padding-bottom: 100px;
     padding-top: 20px;
@@ -165,49 +171,47 @@ footer p {
     margin-right: 30px;
 }
 
-article ul{
-    line-height: 16px;
-    padding: 10px; 
-}
-
 .containerform {
     border: 1px solid black;
-    padding: 10px; 
-    line-height: 24px;
+    padding: 20px 10px 5px 15px; 
+    line-height: 20px;
     
 }
 input[type=text] {
-    width: 100%;
+    width: 970px;
+    height: 30px;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+    outline: none;
 }
 
 input[type=email] {
-    width: 100%;
+    width: 970px;
+    height: 30px;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+    outline: none;
 }
 
-textarea {
-    width: 100%;
+input[type=text]#ymessage {
+    width: 970px;
+    height: 100px;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 1px;
     box-sizing: border-box;
-    
-}
-.form2 {
-    margin-bottom: 20px;
+    outline: none;
 }
 
-.sendbutton {
-    background-color:pink;
-    height: 35px;
-    width: 55px;
-}
-.sendbutton2 {
-    background-color:transparent;
-    height: 35px;
-    width: 55px;
+input[type=submit] {
+    background-color: #d4e9e7;
+    border: solid;
+    border-width: 1px;
+    color: black;
+    padding: 7px 10px;
+    text-decoration: none;
+    font-size: 10px;
+    margin: 10px 2px;
+    cursor: pointer;
 }
