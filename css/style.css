@@ -117,10 +117,9 @@ header nav {
     font-size: 25px;
     line-height: 60px;
     text-align: center;
-    color: solid black;
+    color: black;
     width: 1024px;
     margin: 0 auto; padding: 0;
-    background-color:;
 }
 
 nav ul li {
